@@ -1,0 +1,168 @@
+/*
+Theme Name: Alien Ship Child
+Theme URI: http://www.johnparris.com/alienship/
+Author: John Parris
+Author URI: http://www.johnparris.com/alienship/
+Description: Alien Ship is a responsive starter theme for WordPress.
+Version: 1.2.1
+License: GNU General Public License
+License URI: license.txt
+Template: alienship
+*/
+
+@import url("../alienship/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+body {
+background-color: #eaebeb;
+color: #222222;
+font-size: 16px;
+font-family: "elena-web", Elena, Georgia, serif;
+word-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-weight: normal;
+}
+
+body.custom-background {
+background-color: #eaebeb;
+}
+
+a {
+color: #428bca;
+text-decoration: underline;
+}
+
+h2, h3, h4, h5 {
+font-family:inherit;
+}
+
+.published-date > a {
+text-decoration: none;
+}
+
+.navbar-default {
+background-color: #222222;
+/*border-color: #e7e7e7;*/
+border: none;
+max-width:650px;
+margin-left: auto;
+margin-right: auto;
+padding:15px;
+padding-bottom:25px;
+}
+
+.navbar-default .navbar-brand {
+color: #FFF;
+}
+
+.navbar-form {
+padding-right:0px;
+}
+
+.navbar-brand {
+float: left;
+padding: 15px 15px;
+font-size: 24px;
+padding-left: 0px;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover {
+color: #C16638;
+text-decoration:underline;
+padding: 15px 9px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #39BC60;
+background-color: #222222;
+text-decoration:none;
+}
+
+.header-line {
+color: #fff;
+clear: both;
+}
+
+.header-line > div {
+padding-left:0px;
+margin-top:15px;
+}
+
+.left-line {
+width:60%;
+}
+
+.right-line {
+float: right;
+
+}
+
+#page {
+margin: 0px auto;
+max-width: 650px;
+}
+
+#primary {
+
+}
+
+.site-footer {
+border-top: solid 1px #ccc;
+margin-top: 50px;
+padding: 7px 0px;
+max-width: 650px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.main-row {
+clear:both;
+text-align:center;
+}
+.main-row > div {
+padding:25px 0px;
+}
+.main-row > div > p {
+margin:5px;
+}
+
+.chiclet-link {
+padding:5px;
+width:80%;
+height:180px;
+background-color: #0c0c0c;
+color:#C16638;
+margin:0px auto;
+}
+.main-row > div > a {
+text-decoration:none;
+color:#fff;
+}
+.chiclet-link:hover {
+padding:5px;
+width:80%;
+height:180px;
+background-color: #0c0c0c;
+color:#C16638;
+margin:0px auto;
+}
+
+.col-sm-8 {
+width: 100%;
+}
+
+.back-container {
+background-color: #222222;
+width:100%;
+}
+
+.form-control {
+height: 26px;
+margin-top:5px;
+}
+
+.footer-text {
+
+}
